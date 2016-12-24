@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="@color/toolbarcolor"
+        android:layout_width="match_parent"
+        android:layout_height="84dp">
+        <RelativeLayout
+            android:id="@+id/btnmesfavorback"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="8dp"
+                android:layout_height="15dp"
+                android:background="@drawable/back"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mes_favor_title"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/title_font"/>
+    </RelativeLayout>
+    <com.etsy.android.grid.StaggeredGridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mesfavorgrid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:item_margin="8dp"
+        android:background="@color/colorwhite"
+        />
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:background="@drawable/imglogo"
+        android:layout_marginTop="44dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="89dp"
+        android:layout_height="18dp" />
+    <ImageView
+        android:id="@+id/levelsignupuser"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="1dp"
+        android:layout_height="1dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/singupusertitle"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/levelsignupuser"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signupuser_title"
+        android:textAlignment="center"
+        android:textColor="@color/colorwhite"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_below="@id/singupusertitle"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_ins_user_singup"
+        android:layout_marginTop="-10dp"
+        android:layout_gravity="center"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:background="@drawable/signup_ins"/>
+    <Button
+        android:layout_below="@id/btn_ins_user_singup"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_fb_user_signup"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:background="@drawable/signup_fb"/>
+    <Button
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_user_unlogin"
+       android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_user_unlogin"
+        android:textColor="@color/colorwhite"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        />
+
+</RelativeLayout>

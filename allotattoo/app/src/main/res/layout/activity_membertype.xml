@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:background="@drawable/imglogo"
+        android:layout_marginTop="44dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="89dp"
+        android:layout_height="18dp" />
+    <ImageView
+        android:id="@+id/level"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="1dp"
+        android:layout_height="1dp">
+    </ImageView>
+    <TextView
+            android:id="@+id/membertype_title"
+            android:layout_centerHorizontal="true"
+           android:layout_above="@id/level"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/membertype"
+            android:textAlignment="center"
+            android:textColor="@color/colorwhite"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_below="@id/membertype_title"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnmembertype1"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:layout_width="186dp"
+        android:layout_height="65dp"
+        android:background="@drawable/membertype1_press"/>
+    <Button
+        android:layout_below="@id/btnmembertype1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnmembertype2"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="186dp"
+        android:layout_height="65dp"
+        android:background="@drawable/membertype2_press"/>
+
+</RelativeLayout>

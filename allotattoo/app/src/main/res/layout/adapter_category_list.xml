@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="191dp">
+
+    <ImageView
+        android:id="@+id/imgstyletattoo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_styleplaceholer"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/centerlevel_layout"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">        
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtstyletitle"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/centerlevel_layout"
+        android:layout_marginBottom="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BlackWork"
+        android:textStyle="normal"
+        android:textColor="@color/colorwhite"
+        android:textSize="@dimen/category_font"/>
+    <TextView
+        android:id="@+id/txtstyledes"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/centerlevel_layout"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plus de 500 tatouages"
+        android:textStyle="normal"
+        android:textColor="@color/border_color"
+        android:textSize="16sp"/>
+    <ImageView
+        android:id="@+id/btncategorylike"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:src="@drawable/btnstylelike"/>
+</RelativeLayout>

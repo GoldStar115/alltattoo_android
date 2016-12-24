@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gridview_border">
+        <ImageView
+            android:id="@+id/imgtattoo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            />
+        <RelativeLayout
+            android:id="@+id/view_main"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/gridview_border">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgphoto"
+                android:layout_marginLeft="10dp"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@color/turquoise_blue"/>
+            <TextView
+                android:id="@+id/txt_tattooistname"
+                android:layout_alignStart="@id/imgphoto"
+                android:layout_marginLeft="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:text="Nicolas Stouls"/>
+            <ImageView
+                android:id="@+id/btnpostlike"
+                android:layout_alignParentEnd="true"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:background="@drawable/btnlike"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

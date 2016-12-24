@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">allotattoo</string>
+    <string name="onboard1_title">DECOUVRIR</string>
+    <string name="onboard1_context">Explorez les différentes catégories de tatouages parmi nos galeries d’images</string>
+    <string name="onboard2_title">PARTAGER</string>
+    <string name="onboard2_context">Connectez-vous et partagez tes tatouages avec le reste de la communauté</string>
+    <string name="onboard3_title">TROUVER</string>
+    <string name="onboard3_context">Trouvez le tatoueur qui vous correspond parmis les centaines de professionnels inscrits</string>
+    <string name="membertype">QUI ÊTES-VOUS ?</string>
+    <string name="signupuser_title">INSCRIVEZ-VOUS</string>
+    <string name="signuptattooist_title">CONNECTEZ-VOUS</string>
+    <string name="signup_user_unlogin">Peut-être plus tard</string>
+    <string name="ins_tab_title">INSPIRATIONS</string>
+    <string name="category_tab_title">CATÉGORIES</string>
+    <string name="mes_favor_title">Mes Favoris</string>
+    <string name="wishlist_unlogin_des">Connectez-vous et créez votre\n propre liste de tatouages.</string>
+    <string name="wishlist_no_des">Likez vos tatouages préférés et\n retrouvez les dans mes favoris</string>
+    <string name="profilepostdes">Tatouages</string>
+    <string name="profilefollowdes">Abonnés</string>
+    <string name="profilecommentdes">Abonnements</string>
+    <string name="tattooistnameheader">Tatoueur : </string>
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "H:\\MyAndroidProject\\allotattoo\\ResideMenu\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "H:\\MyAndroidProject\\allotattoo\\ResideMenu\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\MyAndroidProject\\allotattoo\\ResideMenu\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\shadow.png",
+        "source": "H:\\MyAndroidProject\\allotattoo\\ResideMenu\\res\\drawable-hdpi\\shadow.png"
+    },
+    {
+        "merged": "H:\\MyAndroidProject\\allotattoo\\ResideMenu\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\no_photo.png",
+        "source": "H:\\MyAndroidProject\\allotattoo\\ResideMenu\\res\\drawable-hdpi\\no_photo.png"
+    }
+]
